@@ -1,0 +1,12 @@
+[project]
+name = "expense-app"
+version = "0.1.0"
+description = "Shared ledger for a household that pools money into a joint account."
+requires-python = ">=3.12"
+dependencies = [
+    "django>=6.1.1,<6.2",
+]
+
+[tool.uv]
+# The app is run through manage.py, not installed as a package.
+package = false
