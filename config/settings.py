@@ -70,6 +70,12 @@ TEMPLATES = [
 WSGI_APPLICATION = 'config.wsgi.application'
 
 
+# Authentication
+# Members are the users of the app; see expenses.models.Member.
+
+AUTH_USER_MODEL = 'expenses.Member'
+
+
 # Database
 # https://docs.djangoproject.com/en/6.1/ref/settings/#databases
 
